@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3853EBDEF5FD39001545992B /* Pods_lojaVirtual.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D150AD0D921F6743AC79F0C /* Pods_lojaVirtual.framework */; };
 		42A6E79727BAF641003CB36B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A6E79627BAF641003CB36B /* AppDelegate.swift */; };
 		42A6E79927BAF641003CB36B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A6E79827BAF641003CB36B /* SceneDelegate.swift */; };
 		42A6E79B27BAF641003CB36B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A6E79A27BAF641003CB36B /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07C509D52B4A5971AC7DA3B8 /* Pods-lojaVirtual.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lojaVirtual.debug.xcconfig"; path = "Target Support Files/Pods-lojaVirtual/Pods-lojaVirtual.debug.xcconfig"; sourceTree = "<group>"; };
 		42A6E79327BAF641003CB36B /* lojaVirtual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lojaVirtual.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42A6E79627BAF641003CB36B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42A6E79827BAF641003CB36B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		42A6E7B327BAF643003CB36B /* lojaVirtualUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lojaVirtualUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42A6E7B727BAF643003CB36B /* lojaVirtualUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lojaVirtualUITests.swift; sourceTree = "<group>"; };
 		42A6E7B927BAF643003CB36B /* lojaVirtualUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lojaVirtualUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4315714B8FAC89A4E8840C78 /* Pods-lojaVirtual.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lojaVirtual.release.xcconfig"; path = "Target Support Files/Pods-lojaVirtual/Pods-lojaVirtual.release.xcconfig"; sourceTree = "<group>"; };
+		4D150AD0D921F6743AC79F0C /* Pods_lojaVirtual.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lojaVirtual.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3853EBDEF5FD39001545992B /* Pods_lojaVirtual.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +81,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F5BD22AC662DC3823CA2CE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07C509D52B4A5971AC7DA3B8 /* Pods-lojaVirtual.debug.xcconfig */,
+				4315714B8FAC89A4E8840C78 /* Pods-lojaVirtual.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		42A6E78A27BAF641003CB36B = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +98,8 @@
 				42A6E7AC27BAF643003CB36B /* lojaVirtualTests */,
 				42A6E7B627BAF643003CB36B /* lojaVirtualUITests */,
 				42A6E79427BAF641003CB36B /* Products */,
+				3F5BD22AC662DC3823CA2CE0 /* Pods */,
+				90AD8B51DA0C1D8F7870DA44 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +144,14 @@
 			path = lojaVirtualUITests;
 			sourceTree = "<group>";
 		};
+		90AD8B51DA0C1D8F7870DA44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D150AD0D921F6743AC79F0C /* Pods_lojaVirtual.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42A6E7BD27BAF643003CB36B /* Build configuration list for PBXNativeTarget "lojaVirtual" */;
 			buildPhases = (
+				B8AEA4EDC25D3A6E9079F18E /* [CP] Check Pods Manifest.lock */,
 				42A6E78F27BAF641003CB36B /* Sources */,
 				42A6E79027BAF641003CB36B /* Frameworks */,
 				42A6E79127BAF641003CB36B /* Resources */,
+				6432B73794FDD59DD32DAEC4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +279,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6432B73794FDD59DD32DAEC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-lojaVirtual/Pods-lojaVirtual-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-lojaVirtual/Pods-lojaVirtual-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-lojaVirtual/Pods-lojaVirtual-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8AEA4EDC25D3A6E9079F18E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lojaVirtual-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		42A6E78F27BAF641003CB36B /* Sources */ = {
@@ -434,6 +503,7 @@
 		};
 		42A6E7BE27BAF643003CB36B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07C509D52B4A5971AC7DA3B8 /* Pods-lojaVirtual.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -462,6 +532,7 @@
 		};
 		42A6E7BF27BAF643003CB36B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4315714B8FAC89A4E8840C78 /* Pods-lojaVirtual.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
